@@ -15,7 +15,7 @@ public class Codechef{
                 a[i]=a1.charAt(i)-'0';
                 b[i]=b1.charAt(i)-'0';
             }
-            for(int i=0;i<n;i++){//
+            for(int i=0;i<n;i++){
                 int ch=a[i];
                 int ch2=b[i];
                 if(ch!=ch2){
