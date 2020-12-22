@@ -28,14 +28,13 @@ public class prob3{
             }
                 int b=n;
                 for(int i=0;i<n;i++){
-                    if(k-arr[i][0]<=arr[b][0]){
-                        int a=k-arr[i][0];
+                    int a=k-arr[i][0];
+                    if(a<=arr[b][0]){
 System.out.println(arr[i][1]+" "+arr[i][0]+" "+ arr[b][1] +" "+a);
                         arr[b][0]-=a;
                 }
                 else{
                     b=b-1;
-                    int a=k-arr[i][0];
 System.out.println(arr[i][1]+" "+arr[i][0]+" "+ arr[b][1] +" "+a);
                     arr[b][0]-=a;                    
                 }
