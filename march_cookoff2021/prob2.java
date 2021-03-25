@@ -23,7 +23,7 @@ public class prob2{
                c+=arr[i];
            }
            int min=Integer.MAX_VALUE;
-           for(int i=0;i<n-k+1 ;i++){//
+           for(int i=0;i<n-k+1 ;i++){
                 min=Math.min(min,c);
                 if(arr[i]==1)
                 c-=1;
