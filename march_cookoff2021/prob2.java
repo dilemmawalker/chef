@@ -35,7 +35,7 @@ public class prob2{
            n=min;
            long ans=0l;
            ans=((n*1l)*(n+1))/2;
-
+//
            ans+=no;
            ans-=min;
 
