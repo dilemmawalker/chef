@@ -16,8 +16,8 @@ public class prob3{
             int point=0;
             HashMap<Integer,Integer>map=new HashMap<>();
             while(q-->0){
-                int x=scn.nextInt()-1;
-                int k=scn.nextInt();
+                int x=scn.nextInt()-1;  //position
+                int k=scn.nextInt();    //no of people
 
                 int p=x;
                 long c=0l;
@@ -41,7 +41,9 @@ public class prob3{
                     p++;
                 }
                 point =p;
-                map.put(x,p);
+                for(int i=x;i<p;i++){
+                map.put(i,p);
+                }
                 System.out.println(c);
             }
     }
