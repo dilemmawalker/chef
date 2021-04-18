@@ -19,15 +19,14 @@ public class prob22{
                 int x=scn.nextInt()-1;
                 int v=scn.nextInt();
 
-                removi(freq,x);
+                removi(freq,arr[x]);
                 // System.out.println(printi(freq));
                 addi(freq,v);
                 System.out.println(printi(freq));
             }
         }
     }
-    public static void removi(int[]freq,int x){
-        int val=freq[x];
+    public static void removi(int[]freq,int val){
         int mask=0;
         int idx=0;
         while(idx<32){
