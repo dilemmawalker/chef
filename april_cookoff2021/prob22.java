@@ -20,6 +20,7 @@ public class prob22{
                 int v=scn.nextInt();
 
                 removi(freq,arr[x]);
+                arr[x]=v;
                 // System.out.println(printi(freq));
                 addi(freq,v);
                 System.out.println(printi(freq));
