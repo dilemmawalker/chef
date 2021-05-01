@@ -10,7 +10,7 @@ import java.util.Scanner;
             sum+=a;
         }
         int q=scn.nextInt();
-        while(q-->0){
+        while(q-->0){//
             int a=scn.nextInt();
             sum=((sum)*2)%mod;
             System.out.println(sum);
